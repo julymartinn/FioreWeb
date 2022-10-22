@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f1e6ecdb;;
+}
+
+.logo_fiore{
+    width: 80px;
+}
+
+.dropdown{
+    align-self: center;
+}
+
+.btn_menu{
+    color: #fff;
+    background-color: #e3b5d9;
+    border-color: #edd6ed;
+    font-family: 'Amatic SC', cursive;
+    font-size: 16px;
+}
+
+.dropdown-toggle::after{
+    display:none;
+}
+
+.btn_menu:hover{
+    color: #e3b5d9;
+    background-color: #fff;
+    border-color: #f5a9f5;
+}
+
+.menu-general{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 14px;
+    margin: 5px;
+    font-family: 'Amatic SC', cursive;
+}
+
+h2{
+    font-size: 24px;
+    font-family: 'Dancing Script', cursive;
+}
+.container_logo{
+    text-align: end;
+}
+
+.container_slogan{
+    border-radius: 16px;
+    width: 80%;
+    text-align: center;
+    background-color: #f698ed29;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+p{
+    font-family: 'Amatic SC', cursive;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+.container_slider{
+    width: 80%;
+    margin: 0 auto;
+    align-self: center;
+}
+.card_home{
+    max-width: 540px;
+    margin: 10px auto;
+}
+
+.separator_icon{
+    color: #ce3971ed;
+    font-size: 30px!important;
+    margin: 15px 0;
+    text-align: center;
+}
+
+h3{
+    font-size: 16px;
+    margin: 20px 10px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.text_card_home{   
+    font-family: 'Kalam', cursive;
+    font-size: 16px;
+    color: #f5a9f5;
+}
+
+.card_title_home{
+    text-align: center;
+    margin: 10px;
+}
+.no-gutters{
+    padding: 10px 15px;
+}
+
+li{
+    line-height: 1;
+    list-style: none;
+    font-size: 14px;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    margin: 10px 0;
+}
+
+a{
+    color: #000;
+}
+
+a:visited {
+    color: black;  
+    text-decoration: none 
+}
+
+a:link{
+    text-decoration: none
+}
+
+footer{
+    position: absolute;
+    align-items: center;
+    right: 25px;
+}
+
+
+/*media queries*/
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    h2 {
+        font-size: 30px;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    p {
+        padding: 10px 45px;
+        font-size: 24px;
+    }
+
+    .card_home {
+        margin: 10px auto;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .card_title_home {
+        line-height: 1;
+    }    
+    
+}
+@media only screen and (min-width: 992px) {
+    body {
+        padding: 35px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 32px;
+    }
+
+    h3{
+        font-size: 28px;
+    }
+
+    p{
+        font-size: 24px;
+    }
+
+    .container_slogan {
+        align-self: end;
+        height: fit-content;
+        width: 80%;
+        text-align: center;
+        padding: 10px;
+        margin: 20px auto;
+    }
+    .container_slider {
+        width: 60%;
+    }
+
+    .logo_fiore {
+        width: 120px;
+    }
+
+}
+
+
+
