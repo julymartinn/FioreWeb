@@ -4,9 +4,159 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <!--Estilos Css-->
+    <link rel="stylesheet" href="../css/styles.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Kalam&display=swap" rel="stylesheet">
+    <!--Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Accesorios|Fiore</title>
 </head>
 <body>
+    <main>
+        <header class="m-3 d-flex justify-content-around">
+          <!--logo_Fiore-->
+            <div class="container_logo">
+              <img src="../images/logoFiore.svg" alt="Logo de Fiore" class="logo_fiore">
+            </div>
+
+            <!--Menu responsive-->
+            <div class="dropdown d-block d-sm-block d-md-none d-lg-none d-xl-none">
+              <button class="btn btn_menu dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                <h1 class="d-none d-sm-none d-md-block">MENU</h1>
+                <i class="material-icons d-block d-sm-block d-md-none">dehaze</i>
+              </button>
+              <div class="dropdown-menu">
+                <button class="dropdown-item" type="button"><a href="../index.html"><h1>HOME</h1></a></button>
+                <button class="dropdown-item" type="button"><a href=""><h1>BELLEZA</h1></a></button>
+                <button class="dropdown-item" type="button"><a href=""><h1>TIPS</h1></a></button>
+                <button class="dropdown-item" type="button"><a href=""><h1>CONTACTANOS</h1></a></button>
+              </div>
+            </div>
+
+            <!--Menu desktop-->
+            <div class="menu-general d-none d-sm-none d-md-flex d-lg-flex d-xl-flex">
+                <a href="../index.html"><h1>HOME</h1></a>
+                <h1>BELLEZA</h1>
+                <h1>TIPS</h1>
+                <h1>CONTACTANOS</h1>
+            </div>
+        </header>
+
+        <!--info content-->
+        <section>
+            <div class="card-group justify-content-center">
+                <div class="card card_products">
+                  <img src="../images/aretesAbeja.svg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h2 class="card-title">Aretes de abeja</h2>
+                    <p class="card-text">
+                        Arete esmaltado, con argolla para mayor seguridad, material acero.
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <button class="btn btn_buy">Comprar</button>
+                  </div>
+                </div>     
+                <div class="card card_products">
+                    <img src="../images/aretesCaballodemar.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h2 class="card-title">Aretes de abeja</h2>
+                      <p class="card-text">
+                          Arete esmaltado, cierre mariposa, material acero.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <button class="btn btn_buy">Comprar</button>
+                    </div>
+                </div>   
+                <div class="card card_products">
+                    <img src="../images/aretesCorazon.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h2 class="card-title">Aretes de corazón</h2>
+                      <p class="card-text">
+                          Arete con cierre mariposa, material acero.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <button class="btn btn_buy">Comprar</button>
+                    </div>
+                </div> 
+                <div class="card card_products">
+                    <img src="../images/balacaAmarilla.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h2 class="card-title">Balaca Amarilla</h2>
+                      <p class="card-text">
+                          Balaca amarilla, con coqueto moño superior, para complementar tu outfit.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <button class="btn btn_buy">Comprar</button>
+                    </div>
+                </div>     
+                <div class="card card_products">
+                    <img src="../images/balacaAzul.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h2 class="card-title">Balaca azul</h2>
+                        <p class="card-text">
+                          Balaca amarilla, con coqueto moño superior, para complementar tu outfit.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn_buy">Comprar</button>
+                    </div>
+                </div>   
+                <div class="card card_products">
+                    <img src="../images/balacaAnimal.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h2 class="card-title">Balaca animal print</h2>
+                        <p class="card-text">
+                            Balaca animal print,con pliegue superior, para complementar tu outfit.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn_buy">Comprar</button>
+                    </div>
+                </div> 
+                <div class="card card_products">
+                    <img src="../images/balacaBlanca.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h2 class="card-title">Balaca Blanca</h2>
+                        <p class="card-text">
+                            Balaca blanca, con coqueto moño superior, para complementar tu outfit.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn_buy">Comprar</button>
+                    </div>
+                </div>
+                <div class="card card_products">
+                    <img src="../images/manillaDuoRoja.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h2 class="card-title">Manilla Duo roja</h2>
+                        <p class="card-text">
+                            Manila de hilo, tejida, ideal para tu mejor amiga.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn_buy">Comprar</button>
+                    </div>
+                </div>  
+        </section>
+
+        <!--footer-->
+        <footer class="d-flex">
+            <h3>Facebook</h3>
+            <h3>Instagram</h3>
+            <h3>Whatsapp</h3>
+        </footer>        
+    </main>
     
 </body>
 </html>
