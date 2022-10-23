@@ -40,7 +40,7 @@ body{
     justify-content: space-between;
 }
 
-h1{
+h1, label{
     font-size: 14px;
     margin: 5px;
     font-family: 'Amatic SC', cursive;
@@ -62,6 +62,7 @@ h2{
     padding: 10px;
     margin: 20px auto;
 }
+
 
 p{
     font-family: 'Amatic SC', cursive;
@@ -165,6 +166,42 @@ footer{
     margin: 0 auto;
 }
 
+.cursor{
+    cursor: pointer;
+}
+
+.container_list_tips{    
+    width: 30%;
+    background: #fec5e9a8;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.container_list_tips nav ul li{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.card_tips{
+    max-width: 640px;
+}
+
+.card_tips .no-gutters .col-md-8{
+    align-self: center;
+}
+.container_tips{
+    height: 590px;
+    overflow-y: scroll;
+}
+.container_btn_contact{
+    width: 50%;
+    margin: 0 auto;
+}
+fieldset{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
 
 
 /*media queries*/
@@ -189,7 +226,13 @@ footer{
 
     .card_title_home {
         line-height: 1;
-    }    
+    }   
+    
+    .container_tips {
+        height: fit-content;
+        overflow-y: visible;
+        text-align: -webkit-center;
+    }
     
 }
 @media only screen and (min-width: 992px) {
@@ -197,7 +240,7 @@ footer{
         padding: 35px;
     }
 
-    h1{
+    h1, label{
         font-size: 40px;
     }
 
@@ -235,6 +278,24 @@ footer{
         width: 50%;
         margin: 0 auto;
     }
+
+    .container_tips {
+        height: fit-content;
+        overflow-y: visible;
+        text-align: -webkit-center;
+    }
+
+    .img_card_tips{
+        width: 300px;
+    }
+
+    .card-group {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+
 }
 
 

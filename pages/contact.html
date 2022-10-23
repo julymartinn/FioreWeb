@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <!--Estilos Css-->
+    <link rel="stylesheet" href="../css/styles.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Kalam&display=swap" rel="stylesheet">
+    <!--Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Contacto|Fiore</title>
+</head>
+<body>
+    <main>
+        <header class="m-3 d-flex justify-content-around">
+          <!--logo_Fiore-->
+            <div class="container_logo">
+              <img src="../images/logoFiore.svg" alt="Logo de Fiore" class="logo_fiore">
+            </div>
+
+            <!--Menu responsive-->
+            <div class="dropdown d-block d-sm-block d-md-none d-lg-none d-xl-none">
+              <button class="btn btn_menu dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                <h1 class="d-none d-sm-none d-md-block">MENU</h1>
+                <i class="material-icons d-block d-sm-block d-md-none">dehaze</i>
+              </button>
+              <div class="dropdown-menu">
+                <button class="dropdown-item cursor" type="button"><a href="../index.html"><h1>HOME</h1></a></button>
+                <button class="dropdown-item cursor" type="button"><a href="beauty.html"><h1>BELLEZA</h1></a></button>
+                <button class="dropdown-item cursor" type="button"><a href="accessories.html"><h1>ACCESORIOS</h1></a></button>
+                <button class="dropdown-item cursor" type="button"><a href="tips.html"><h1>TIPS</h1></a></button>
+              </div>
+            </div>
+
+            <!--Menu desktop-->
+            <div class="menu-general d-none d-sm-none d-md-flex d-lg-flex d-xl-flex">
+                <a href="../index.html" class="cursor"><h1>HOME</h1></a>
+                <a href="beauty.html" class="cursor"><h1>BELLEZA</h1></a>
+                <a href="accessories.html" class="cursor"><h1>ACCESORIOS</h1></a>
+                <a href="tips.html" class="cursor"><h1>TIPS</h1></a>
+            </div>
+        </header>
+
+        <!--info content-->
+        <section>
+            <fieldset>
+                <legend><h3>Escríbenos y en Breve los pondremos en contacto contigo</h3></legend>
+                <div class="mt-3">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" placeholder="Pon tu nombre">
+                </div>                 
+                <div class="mt-3">
+                    <label for="phone">Telefono</label>
+                    <input type="number" name="phone" placeholder="Pon tu telefono" required>
+                </div>
+                <div class="mt-3">
+                    <label for="mail">E-mail</label>
+                    <input type="email" name="mail" placeholder="Pon tu E-mail" required>
+                </div>
+                
+                <div class="mt-3">
+                    <label for="comentarios">Escribe tus comentarios</label><br>
+                    <textarea name="comentarios" cols="35" rows="7"></textarea>
+                </div>
+
+                <div class="mt-3">
+                    <label for="contacto">Deseas que te contestemos por</label><br>
+                    <div class="d-flex justify-content-center">
+                        <input type="radio" name="contacto" value="telefono"><h2 class="mx-2">Telefono</h2>
+                        <input type="radio" name="contacto" value="email"><h2 class="mx-2">Email</h2>
+                    </div>                     
+                </div>
+                
+                <div class="container_btn_contact">
+                    <input type="submit" value="Enviar datos" class="btn_buy">            
+                </div>
+            </fieldset> 
+        </section>
+
+        <!--footer-->
+        <footer class="d-flex">
+            <h3>Facebook</h3>
+            <h3>Instagram</h3>
+            <h3>Whatsapp</h3>
+        </footer>        
+    </main>
+    
+</body>
+</html>

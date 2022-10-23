@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <!--Estilos Css-->
+    <link rel="stylesheet" href="../css/styles.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Kalam&display=swap" rel="stylesheet">
+    <!--Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Tips|Fiore</title>
+</head>
+<body>
+    <main>
+        <header class="m-3 d-flex justify-content-around">
+          <!--logo_Fiore-->
+            <div class="container_logo">
+              <img src="../images/logoFiore.svg" alt="Logo de Fiore" class="logo_fiore">
+            </div>
+
+            <!--Menu responsive-->
+            <div class="dropdown d-block d-sm-block d-md-none d-lg-none d-xl-none">
+              <button class="btn btn_menu dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                <h1 class="d-none d-sm-none d-md-block">MENU</h1>
+                <i class="material-icons d-block d-sm-block d-md-none">dehaze</i>
+              </button>
+              <div class="dropdown-menu">
+                <button class="dropdown-item cursor" type="button"><a href="../index.html"><h1>HOME</h1></a></button>
+                <button class="dropdown-item cursor" type="button"><a href="beauty.html"><h1>BELLEZA</h1></a></button>
+                <button class="dropdown-item cursor" type="button"><a href="accessories.html"><h1>ACCESORIOS</h1></a></button>
+                <button class="dropdown-item cursor" type="button"><a href="contact.html"><h1>CONTACTANOS</h1></a></button>
+              </div>
+            </div>
+
+            <!--Menu desktop-->
+            <div class="menu-general d-none d-sm-none d-md-flex d-lg-flex d-xl-flex">
+                <a href="../index.html" class="cursor"><h1>HOME</h1></a>
+                <a href="beauty.html" class="cursor"><h1>BELLEZA</h1></a>
+                <a href="accessories.html" class="cursor"><h1>ACCESORIOS</h1></a>
+                <a href="contact.html" class="cursor"><h1>CONTACTANOS</h1></a>
+            </div>
+        </header>
+
+        <!--info content-->
+        <section class="d-block d-sm-block d-md-block d-lg-flex d-xl-flex">
+            <div class="container_list_tips d-none d-sm-none d-md-none d-lg-block d-xl-block">
+                <nav>
+                    <h2 class="text-center text-white">Nuestros mejores tips</h2>
+                    <ul>
+                        <a href="#bolsadeagua" class="cursor"><li>Bolsa de agua</li></a>
+                        <a href="#colagenolabios" class="cursor"><li>Cuida tus labios</li></a>
+                        <a href="#disminuyeojeras" class="cursor"><li>Reduce tus ojeras</li></a>
+                        <a href="#hidratatupiel" class="cursor"><li>Suaviza tu piel</li></a>
+                    </ul>
+                </nav>
+            </div>
+            <div class="container_tips">
+                <div class="card mb-3 card_tips" id="bolsadeagua">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 text-center">
+                            <h2 class="card-title">Bolsa de agua</h2>
+                            <img src="../images/bolsadeagua.svg" alt="Bolsa de agua" class="img_card_tips">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <ul>
+                                    <li>Aliviar cólicos mestruales</li>
+                                    <li>Calmar el dolor de espalda</li>
+                                    <li>Úsala con tus peluditos para que se sientan cómodos</li>
+                                    <li>Cuando termines de usarla, riega tus plantas</li>
+                                    <li>Ayuda aliviando dolores de cabeza</li>
+                                    <li>Calienta tus pies en estos días frios</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 card_tips" id="colagenolabios">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 text-center">
+                            <h2 class="card-title">Cuida tus labios</h2>
+                            <img src="../images/colagenolabios.svg" alt="Colageno de labios" class="img_card_tips">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <ul>
+                                    <li>Evitar lamerte los labios, la saliva produce sequedad en los labios</li>
+                                    <li>Importante beber agua aproximadamente 2 litros diarios, esto te mantiene hidratada</li>
+                                    <li>Mantén siempre tus labios hidratados y utilizar productos especiales para los labios, como nuestro colágeno.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 card_tips" id="disminuyeojeras">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 text-center">
+                            <h2 class="card-title">Reduce ojeras</h2>
+                            <img src="../images/colagenoojos.svg" alt="Colageno de labios" class="img_card_tips">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <ul>
+                                    <li>Aplicar protección solar</li>
+                                    <li>Duerme bien por lo menos 8 horas</li>
+                                    <li>Reduce tiempo en el celular y computador</li>
+                                    <li>Pon rodajas de pepino frío en tus ojos, o productos especializados para esa zona, como nuestro colágeno</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 card_tips" id="hidratatupiel">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 text-center">
+                            <h2 class="card-title">Hidrata tu piel</h2>
+                            <img src="../images/mascarilla.svg" alt="Mascarilla" class="img_card_tips">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <ul>
+                                    <li>Limpia tu rostro todas las mañanas y todas las noches</li>
+                                    <li>Bebe agua esto ayudara no solo a tu cuerpo, también a tú rostro a eliminar impurezas</li>
+                                    <li>Procura usar bloqueador solar en gel</li>
+                                    <li>Utiliza por lo menos 2 veces a la semana una mascarilla hidratante</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--footer-->
+        <footer class="d-flex">
+            <h3>Facebook</h3>
+            <h3>Instagram</h3>
+            <h3>Whatsapp</h3>
+        </footer>        
+    </main>
+    
+</body>
+</html>
